@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Mayday</title>
+    <link rel="stylesheet" href="home.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,100&family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo_header">
+        <a href="#" class="logo"><span style="color:black">May</span> day</a>
+      
+          <button class="navbar_toggle">
+            <i class="fa fa-bars"></i>
+          </button>
+   
+      </div>
+  
+      
+      <ul class="main_nav">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./tour.html">Tour</a></li>
+        <li><a href="./bio.html">Bio</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="#" class="fa fa-facebook"></a></li>
+        <li><a href="#" class="fa fa-instagram"></a></li>
+        <li><a href="#" class="fa fa-youtube"></a> </li>
+      </ul>
+        
+    </nav>
+
+    <div class="banner">
+    </div>
+    </div>
+    <section class="news">
+      <div class="main">
+        <div class="news-text">
+          <h2>Latest News</h2>
+        </div>
+      </div>
+      <div class="grid">
+       
+      <div class="box">
+        <div>
+          <img src="./Images/image1.jpg" alt="WorldTour">
+        </div>
+        <div>
+          <p>Wrapping up our world tour in May 2022</p>
+        </div>
+      </div>   
+        <div class="box">
+          <div>
+            <img src="./Images/image2.jpg" alt="WorldTour">
+          </div>
+          <div>
+            <p>In the blink of an eye, it is the last day of May. How were you this month?<br> 
+              Have you been busy? Were you happy? Have you faced any troubles?<br>
+              During these times, do take care of yourself till we meet. Wishing you a great June ahead!</p>
+            </div>
+        </div>  
+        <div class="box">
+          <div>
+            <img src="./Images/image4.jpg" alt="WorldTour">
+          </div>
+          <div>
+            <p>20220222
+              ✌🏼✌🏼✌🏼✌🏼✌🏼</p>
+            </div>
+        </div>
+        <div class="box">
+          <div>
+            <img src="./Images/image3.jpg" alt="WorldTour">
+          </div>
+          <div>
+            <p>Hi🖐! It's May! Long time no see! Which song will you pick today ?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="subscribe">
+      <div class="main">
+        <div class="news-text">
+          <h2>Get the latest news now!!!</h2>
+          <h5>Subscribe for updates</h5><br>
+          <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+          <a href="#" class="btn">Subscribe</a>
+        </div>
+      </div>
+    </section>
+    
+
+  </body>
+  <script>
+    const navToggle = document.querySelector(".navbar_toggle");
+    const links = document.querySelector(".main_nav");
+
+    navToggle.addEventListener('click', function(){
+        links.classList.toggle("show_nav");
+    })
+  </script>
+</html>

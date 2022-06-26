@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Mayday</title>
+    <link rel="stylesheet" href="tour.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;1,100&family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="logo_header">
+            <a href="#" class="logo"><span style="color:black">May</span><span>day</span></a>
+            <button class="navbar_toggle">
+              <i class="fa fa-bars"></i>
+            </button>
+     
+        </div>
+    
+        
+        <ul class="main_nav">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./tour.html">Tour</a></li>
+          <li><a href="./bio.html">Bio</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="#" class="fa fa-facebook"></a></li>
+          <li><a href="#" class="fa fa-instagram"></a></li>
+          <li><a href="#" class="fa fa-youtube"></a> </li>
+        </ul>
+          
+      </nav>   
+      <iframe width="100%" height="400px" src="https://www.youtube.com/embed/6Duo89XuYIM" title="MAYDAY五月天 [洋蔥] feat. TFBOYS 王俊凱" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="tour_body"> 
+            <div class="tour_title">
+                World Tour
+            </div>
+            <div class="tour_information">
+                <div>
+                    <span>03 December</span>
+                    <span>The Venue</span>
+                    <span>Singapore National Stadium, Singapore</span>
+                </div>
+                <div>
+                    <button>NOTIFY ME</button>
+                </div>
+            </div>
+            <div class="tour_information">
+                <div>
+                    <span>16 November</span>
+                    <span>The Venue</span>
+                    <span>Kuala Lumpur, Malaysia</span>
+                </div>
+                <div>
+                    <button>NOTIFY ME</button>
+                </div>
+            </div>
+            <div class="tour_information">
+                <div>
+                    <span>05 November</span>
+                    <span>The Venue</span>
+                    <span>Bandar Seri Begawan, Brunei</span>
+                </div>
+                <div>
+                    <button>NOTIFY ME</button>
+                </div>
+            </div>
+            <div class="tour_information">
+                <div>
+                    <span>15 October</span>
+                    <span>The Venue</span>
+                    <span>Shenzhen, China</span>
+                </div>
+                <div>
+                    <button>NOTIFY ME</button>
+                </div>
+            </div>
+            <div class="tour_information">
+                <div>
+                    <span>02 October</span>
+                    <span>The Venue</span>
+                    <span>Kaohsiung National Stadium, Taiwan</span>
+                </div>
+                <div>
+                    <button>NOTIFY ME</button>
+                </div>
+            </div>
+        </div>
+  </body>
+  <script>
+    const navToggle = document.querySelector(".navbar_toggle");
+    const links = document.querySelector(".main_nav");
+
+    navToggle.addEventListener('click', function(){
+        links.classList.toggle("show_nav");
+    })
+  </script>
+</html>
